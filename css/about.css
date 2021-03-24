@@ -1,0 +1,45 @@
+/* Media query for tablet viewport targets screen size with a minimum width of 660px. */
+@media only screen and (min-width: 480px) {
+	body{
+		background-color: white;
+	}
+	.headingColor{
+		color:#17A589;
+		margin-left: 1em;
+	}
+	.para{
+		margin:0 2.6em 0 1.4em;
+		font-size: 1.2em;
+	}
+	ol{
+		list-style-position: inside;
+	}
+}
+}
+@media only screen and (min-width: 611px) {
+	body{
+		background-color: #F0FFF0;
+	}
+	.grid_container{
+		flex-direction: column;
+	}
+	ol{
+		list-style-position: inside;
+	}
+}
+@media only screen and (min-width: 1279px) {
+	body{
+		background-color: #E4F3F1;
+	}
+	.headingColor{
+		color:#17A589;
+		margin-left: 1em;
+	}
+	.para{
+		margin:0 3em 0 1.6em;
+	}
+	ol{
+		list-style-position: inside;
+	}
+}
+

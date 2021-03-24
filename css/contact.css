@@ -1,0 +1,41 @@
+form{
+	align-content: center;
+	width: auto;
+	justify-content:  center;
+	background-color: #17A589;
+	color: white;
+}
+label{
+	/*float: left;*/
+	padding-right: 0.5em;
+	text-align: right;
+	width: 8em;
+}
+.buttons{
+	text-align: center;
+	font-size: 19px;
+	color: #17A589;
+	background-color: white;
+	border-radius: 5px;
+	font-weight: bold;
+	width: 7em;
+	height: 1.6em;
+	box-shadow: 3px 4px gray;
+}
+h1{
+	color: #17A589;
+}
+h2{
+	color: #17A589;
+}
+fieldset{
+	border-color: white;
+	border-width: 0.2em;
+}
+input{
+	font-size: 0.9em;
+}
+select{
+	width: 10em;
+	height: 1.7em;
+}

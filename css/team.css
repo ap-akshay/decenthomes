@@ -1,0 +1,46 @@
+section {
+background-color: #17A589;
+color: #FFFFFF;
+padding: 1%;
+}
+/*Stylerule for article for background-color,text color, margin,border-radius and padding*/
+
+article {
+background-color: white;
+border-radius: 3em;
+color: black;
+margin-top: 1%;
+padding: 2%;
+}
+article>h1{
+	color: #17A589;
+}
+/*Stylerule for aside for background-color,text color, margin,border-radius,width,float and padding*/
+aside {
+background-color: white;
+border-radius: 3em;
+width: 25%;
+float: right;
+padding: 2%;
+/*margin-top: 5em;*/
+/*margin-top: 1%;*/
+color: #17A589;
+}
+aside.img{
+	height: auto;
+	width: auto;
+}
+figure>img{
+	height: 250px;
+	width: 250px;
+
+	/*clear: left;*/
+}
+
+figure{
+	float: left;
+}
+
+.articalMargin{
+	margin-right: 30em;
+}
